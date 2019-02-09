@@ -9,11 +9,11 @@ numb = raw_input("Give me 10 numbers seperated by commas: ")
 numbs = numb.split(",")
 for i in range(10):
 	numb_list.append(int(numbs[i]))
-
-
+	
 success = []
 days = []
 cur_date = datetime.datetime.today()
+
 for i in range(31):
 	cur_date= cur_date - datetime.timedelta(days=1)
 	date_str= cur_date.strftime("%d-%m-%Y")     
