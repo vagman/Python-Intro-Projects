@@ -39,6 +39,7 @@ for i in range(31):
 					if sum_4 > 4: # Found numbers > 4 , 5 found numbers = succ
 						success_sum += 1
 	success.append(success_sum)
+	
 # Here we sort 2 parallel lists so we can print the day with the most success rate !
 for length in range(len(success) - 1,0,-1):
 	for i in range(length):
