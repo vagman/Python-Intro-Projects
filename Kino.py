@@ -1,9 +1,10 @@
-# Kino Exercise 2
+# Kino - Exercise 2
 
+import datetime
+import json
+from datetime import date
 from urllib import request 
 from urllib.request import urlopen
-import json
-import datetime
 
 numb_list = []
 numb = input("Give me 10 numbers seperated by commas: ")
@@ -13,11 +14,12 @@ for i in range(10):
 	
 success = []
 days = []
-cur_date = datetime.datetime.today()
+cur_date = date.today()
 
 for i in range(31):
-	cur_date = cur_date - datetime.timedelta(days=1)
+	cur_date = cur_date - datetime.timedelta(days = 1)
 	date_str = cur_date.strftime("%d-%m-%Y")     
+	# Depricated KINO link: more info at https://www.opap.gr/en/kino-ws
 	url = "http://applications.opap.gr/DrawsRestServices/kino/drawDate/{}.json".format(date_str) 
 	req = request(url)          
 	response = urlopen(req)     
@@ -27,17 +29,23 @@ for i in range(31):
 	
 	days.append(date_str)
 	r = []
-	success_sum = 0 # Counts the day's success rate
+	# Counts the day's success rate
+	success_sum = 0
 
 	for k in lottery:
-		sum_4 = 0  # This is the sum that counts the 4 or more numbers
+		# Counts the 4 or more numbers
+		sum_4 = 0  
 		lottery = k["results"]
 		r.append(lottery)
-		for j in range(0,10): # For every player's numb
-			for numbers in range(0,20): # For every lottary's numb
+
+		# For every player's numb..
+		for j in range(0, 10): 
+			# For every lottary's numb..
+			for numbers in range(0, 20): 
 				if numb_list[j] == 	lottery[numbers]: 
 					sum_4 += 1
-					if sum_4 > 4: # Found numbers > 4 , 5 found numbers = succ
+					# Found numbers > 4 , 5 found numbers = success
+					if sum_4 > 4: 
 						success_sum += 1
 	success.append(success_sum)
 	
