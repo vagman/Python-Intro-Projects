@@ -3,8 +3,8 @@
 import datetime
 import json
 from datetime import date
-from urllib import request 
-from urllib.request import urlopen
+import requests
+from urllib3 import response
 
 numb_list = []
 numb = input("Give me 10 numbers seperated by commas: ")
@@ -16,15 +16,16 @@ success = []
 days = []
 cur_date = date.today()
 
+
+
 for i in range(31):
 	cur_date = cur_date - datetime.timedelta(days = 1)
 	date_str = cur_date.strftime("%d-%m-%Y")     
-	# Depricated KINO link: more info at https://www.opap.gr/en/kino-ws
-	url = "http://applications.opap.gr/DrawsRestServices/kino/drawDate/{}.json".format(date_str) 
-	req = request(url)          
-	response = urlopen(req)     
-	data = response.read()              
-	data = json.loads(data)               
+	
+	respone = requests.get("https://api.opap.gr/draws/v3.0/1100/last-result-and-active") 
+	print(response)   
+
+	data = response.json()              
 	lottery = data["draws"]["draw"]      
 	
 	days.append(date_str)
