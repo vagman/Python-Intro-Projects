@@ -16,9 +16,13 @@ G: **
 
 Γράψτε ένα κώδικα σε Python ο οποίος να παίρνει σαν είσοδο ένα αρχείο ASCII κειμένου και μετατρέπει τον κάθε χαρακτήρα του στον “κατοπτρικό” του χαρακτήρα ASCII. Κατοπτρικοί χαρακτήρες είναι αυτοί των οποίων το άθροισμα είναι 128. Εμφανίστε το κατοπτρικό κείμενο στο χρήστη με ανάποδη σειρά χαρακτήρων.
 
-## Exercise No.6: Twitter Scrapper
+## Exercise No.6: Twitter Scrapper :heavy_check_mark: 
 
 Γράψτε ένα κώδικα σε Python ο οποίος συνδέεται στο twitter (χρησιμοποιείστε το tweepy) και επιλέξτε τα 10 τελευταία tweets του χρήστη που θα σας δηλώσει ο χρήστης. Εμφανίστε τις 5 μεγαλύτερες λέξεις και τις 5 μικρότερες λέξεις του.
+
+### Important Note
+
+Go to config.ini file and enter your own **consumer keys** and **access tokens** from [Twitter Developers](https://developer.twitter.com/en/portal/projects/).
 
 ## Exercise No.1: Square Zeros
 
