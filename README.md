@@ -1,6 +1,5 @@
-# Python Programming class
-
-## Exercise No.9: ASCII Prime
+# 2021 Python Assignments
+## Exercise No.9: ASCII Prime :heavy_check_mark: 
 
 Γράψτε ένα κώδικα σε Python ο οποίος να παίρνει σαν είσοδο ένα αρχείο ASCII κειμένου και μετατρέπει τον κάθε χαρακτήρα στον αντίστοιχο αριθμό ASCII και κρατάει τους μονούς. Εμφανίστε τα στατιστικά εμφάνισης του κάθε γράμματος με “μπάρες” χρησιμοποιώντας το χαρακτήρα *, όπου κάθε * αντιστοιχεί σε 1%. Η στρογγυλοποίηση θα γίνει προς τα πάνω.
 
@@ -12,6 +11,13 @@ E: **************
 
 G: **
 
+### Setup
+* Run as `python3 main.py`.
+
+
+
+
+
 ## Exercise No.12: ASCII Mirror
 
 Γράψτε ένα κώδικα σε Python ο οποίος να παίρνει σαν είσοδο ένα αρχείο ASCII κειμένου και μετατρέπει τον κάθε χαρακτήρα του στον “κατοπτρικό” του χαρακτήρα ASCII. Κατοπτρικοί χαρακτήρες είναι αυτοί των οποίων το άθροισμα είναι 128. Εμφανίστε το κατοπτρικό κείμενο στο χρήστη με ανάποδη σειρά χαρακτήρων.
@@ -20,9 +26,10 @@ G: **
 
 Γράψτε ένα κώδικα σε Python ο οποίος συνδέεται στο twitter (χρησιμοποιείστε το tweepy) και επιλέξτε τα 10 τελευταία tweets του χρήστη που θα σας δηλώσει ο χρήστης. Εμφανίστε τις 5 μεγαλύτερες λέξεις και τις 5 μικρότερες λέξεις του.
 
-### Important Note
+### Setup
 
-Go to config.ini file and enter your own **consumer keys** and **access tokens** from [Twitter Developers](https://developer.twitter.com/en/portal/projects/).
+* Go to config.ini file and enter your own **consumer keys** and **access tokens** from [Twitter Developers](https://developer.twitter.com/en/portal/projects/).
+* Run as `python3 main.py`.
 
 ## Exercise No.1: Square Zeros
 
