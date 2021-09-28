@@ -25,8 +25,8 @@ try:
         primes[count] = chr(ascii_code)
 
     # Remove unwanted characters like "'"
-    regex = re.compile('[a-zA-Z]')
-    ascii_prime_letters =list(filter(regex.match, primes))
+    regex = re.compile("[a-zA-Z]")
+    ascii_prime_letters = list(filter(regex.match, primes))
 
     # Extract how many time a letter appeared e.g. ('e', 59) & calculate % list(tuple1, tuple2, ..)
     data = Counter(ascii_prime_letters).most_common()
