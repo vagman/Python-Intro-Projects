@@ -6,8 +6,7 @@ from collections import Counter
 r = ReadingTxtFile()
 
 try:
-
-    filename = input("\nEnter an ASCII text file: ")
+    filename = input("\nEnter an ASCII text file. Sample filename 'input'\n")
     data = r.read_txt(filename)
     print("\nPrinting letter statistics...\n")
 
