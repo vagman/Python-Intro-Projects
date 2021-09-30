@@ -1,7 +1,7 @@
 from textwrap import wrap
 import re
 
-filename = input("\nTest files you can use: test.py, test,json, test.txt\nEnter file to read: ")
+filename = input("\nTest files you can use: test.txt\nEnter file to read: ")
 try:
     f = open(filename, "r")
     data = f.read()
