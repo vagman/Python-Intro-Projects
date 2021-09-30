@@ -14,7 +14,7 @@ try:
             numb = numb * 3 + 1
         result = result + str(int(numb)) + " → "
 
-    print("{} → {}".format(user_input, result[:-3]) )
+    print("\n{} → {}\n".format(user_input, result[:-3]) )
 
 except ValueError:
-    print("Oops! {} is not an integer. Please try again.".format(user_input))
+    print("\nOops! {} is not an integer. Please try again.\n".format(user_input))

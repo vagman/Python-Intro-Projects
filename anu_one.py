@@ -4,7 +4,7 @@ from collections import Counter
 try:
     print("\nConnecting to ANU quantum computer...\n")
     response = requests.get('https://qrng.anu.edu.au/API/jsonI.php?length=1000&type=uint8')
-    # The random numbers are returned in a JSON encoded array named ‘data’
+    # Random numbers are returned in JSON array named ‘data’
     numbers = response.json()['data']
 
     # Modulo 20 every number
