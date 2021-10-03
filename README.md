@@ -24,7 +24,7 @@
 ## 12. 0xPrinter :heavy_check_mark: 
 Γράψτε έναν κώδικα σε Python ο οποίος διαβάζει ένα αρχείο που δηλώνει ο χρήστης (δεν είναι απαραίτητα κειμένου) και εμφανίζει το περιεχόμενό του σε γραμμές μήκους 16 χαρακτήρων. Αν ο χαρακτήρας είναι λειτουργικός τον εμφανίζετε ως κενό (space), αν είναι γράμμα εμφανίζετε τον χαρακτήρα A, αν είναι ψηφίο εμφανίζετε τον χαρακτήρα 1, αν είναι μέχρι το 128, εμφανίζετε το χαρακτήρα p, διαφορετικά, εμφανίζετε τον χαρακτήρα ?
 
-Given input was test.txt file: 3\na\n[\n(space)\nभारत 
+Given input was `test.txt` file containing: 3a[भारतtesta3333333333333
 
 ![output](https://github.com/vagman/Python-Intro-Projects/blob/master/2021%20September%20Assignments/img/0xprinter.jpg)
 
