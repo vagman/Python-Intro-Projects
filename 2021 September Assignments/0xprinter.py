@@ -3,7 +3,7 @@ import re
 
 filename = input("\nTest files you can use: test.txt\nEnter file to read: ")
 try:
-    f = open(filename, "r")
+    f = open(file=filename, mode="r", encoding="utf-8")
     data = f.read()
     
     result = ""
