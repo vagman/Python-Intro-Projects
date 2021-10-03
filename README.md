@@ -1,4 +1,4 @@
-# 2021 Python Assignments
+# 2021 Python Assignments (September)
 
 ## 3.  All Roads Lead to One :heavy_check_mark: 
 Γράψτε έναν κώδικα σε Python ο οποίος υπολογίζει πόσα βήματα χρειάζονται για να γίνει ένας αριθμός μονάδα κάνοντας την ακόλουθη διαδικασία: Αν ο αριθμός είναι ζυγός, τον διαιρεί με το 2, αν είναι μονός τον πολλαπλασιάζει με το 3 και προσθέτει ένα. Παράδειγμα: 7 → 3 * 7 + 1 = 22 → 11 → 3 * 11+ 1 = 34 → 17 → 17 * 3 + 1 = 52 → 26 → 13 → 13 * 3 + 1 → 40 → 20 → 10 → 5 → 3 * 5 + 1 → 16 → 8 → 4 → 2 → 1.
@@ -28,7 +28,7 @@ Given input was `test.txt` file containing: 3a[भारतtesta3333333333333
 
 ![output](https://github.com/vagman/Python-Intro-Projects/blob/master/2021%20September%20Assignments/img/0xprinter.jpg)
 
-# 2021 Python Assignments (June 2021)
+# 2021 Python Assignments (June)
 
 ## 9. ASCII Prime :heavy_check_mark: 
 
