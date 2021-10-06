@@ -17,6 +17,8 @@
 
 ![output](https://github.com/vagman/Python-Intro-Projects/blob/master/2021%20September%20Assignments/img/anu_two.jpg)
 
+Note: Example was executed for length=10 for ease of understanding the concept.
+
 ### Setup
 * `pip install requests`
 * `pip install regex`
